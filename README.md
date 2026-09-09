@@ -1,95 +1,66 @@
-# CurrencyConverter_CPP
+# 💱 Currency Converter — C++
 
-A simple C++ program to convert an amount in Indian Rupees (INR) into its equivalent values in other major currencies: United States Dollar (USD), Euro (EUR), and British Pound (GBP).
+A beginner-friendly C++ program that converts an amount in Indian Rupees (INR) into USD, EUR, and GBP using predefined exchange rates.
 
-## Features
+> **Note:** The exchange rates are fixed values in the program and are intended for learning purposes, not live currency conversion.
 
-- Accepts an input amount in INR.
-- Converts the input amount into:
-  - USD (United States Dollar)
-  - EUR (Euro)
-  - GBP (British Pound)
-- Uses predefined exchange rates for simplicity.
-- Easy to use and understand for beginners learning C++.
+## 🚀 Features
 
-## How It Works
+- Accepts an amount in INR
+- Converts INR to USD, EUR, and GBP
+- Displays results with two decimal places
+- Demonstrates basic C++ input, output, variables, and arithmetic
 
-1. The program prompts the user to enter an amount in INR.
-2. It calculates the equivalent amounts in USD, EUR, and GBP using the following exchange rates:
-   - 1 INR = 0.012 USD
-   - 1 INR = 0.011 EUR
-   - 1 INR = 0.0091 GBP
-3. The results are displayed with two decimal precision.
+## 🧠 Concepts Practiced
 
----
+- Variables and data types
+- `cin` and `cout`
+- Arithmetic operations
+- Floating-point calculations
+- Output formatting
 
-## Getting Started
+## 📂 Project Structure
 
-### Prerequisites
+```text
+CurrencyConverter_CPP/
+├── CurrencyConverter.cpp
+├── README.md
+└── LICENSE
+```
 
-- A C++ compiler (e.g., GCC, MinGW, or any IDE like Code::Blocks, Visual Studio, etc.).
+## ▶️ How to Run
 
-### Compilation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/abjaiyad/CurrencyConverter_CPP.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd CurrencyConverter_CPP
-   ```
-3. Compile the program:
-   ```bash
-   g++ CurrencyConverter.cpp -o CurrencyConverter
-   ```
-
-### Running the Program
-
-After successful compilation, run the program:
 ```bash
+git clone https://github.com/abjaiyad/CurrencyConverter_CPP.git
+cd CurrencyConverter_CPP
+g++ CurrencyConverter.cpp -o CurrencyConverter
 ./CurrencyConverter
 ```
-Enter an amount in INR when prompted, and the program will display the equivalent amounts in USD, EUR, and GBP.
 
----
+On Windows:
 
-## Example
-
-### Input:
+```bash
+CurrencyConverter.exe
 ```
+
+## 🧪 Example
+
+```text
 Enter Amount in INR: 1000
-```
-
-### Output:
-```
 Amount in INR: 1000.00
 Equivalent USD: 12.00
 Equivalent EUR: 11.00
 Equivalent GBP: 9.10
 ```
 
----
+## 🔮 Future Improvements
 
-## File Structure
+- Add more currencies
+- Allow users to select a target currency
+- Add input validation
+- Use live exchange-rate data in a future version
 
-- `CurrencyConverter.cpp` - The main program file.
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request.
-
----
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## Author
+## 👨‍💻 Author
 
 **Amad Bin Jaiyad**  
-- GitHub: [abjaiyad](https://github.com/abjaiyad)
+BCA Final Year Student | Developer & Learner
